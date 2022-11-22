@@ -1,0 +1,95 @@
+Homework1
+
+Задание 1
+1. 
+#проверить версию гит на компе
+git version
+
+2,3
+#создать SSH ключ и добавить в репозиторий
+ssh-keygen -t rsa "liloek2002@gmail.com"
+#клонировать репозиторий после создания на гитхаб
+git clon git@github.com:bakaraml/LiliyaMakarova_LevelUp.git
+#прописать локального юзера и  email для репозитория
+git config --local user.name "Liliya Makarova"
+git config --local user.email "liloek2002@gmail.com"
+
+4.
+#проверить ветки, создать новую ветку и переключиться на нее
+git branch
+git checkout -b homework1
+#добавить файл с частью песни
+git add song.txt
+
+5.
+#комит и отправка на сервер
+git comit -a -m "add first half of my favorite song"
+git push --set-upstream origin homework1
+
+6,7
+Через интерфейс GitHub изменить название песни и сделать комит
+
+8.
+#подтянуть изменения из удаленного репозитория 
+git pull
+
+
+Задание 2.
+1.	
+#переключение на ветку main
+git checkout main
+#создание ветки от main и переключение на неё
+git checkout -b hw1-2-1
+#добавление файла в отслеживаемые
+git add insteadOfLetter.txt
+#коммит
+git commit -a -m "file added"
+
+2.	
+#переключение на ветку main
+git checkout main
+#мердж c веткой main
+git merge hw1-2-1
+#актуализация удаленной ветки main
+git push
+
+3.
+#создание ветки от main и переключение на неё
+git checkout -b hw1-2-3
+
+4.
+#изменение файла и сохранение изменений
+git commit -a -m "step 3"
+#пуш в удалённый репозиторий
+git push --set-upstream origin hw1-2-3
+
+5. 
+#переключение на ветку main
+git checkout main
+#создание ветки от main и переключение на нее
+git checkout -b hw1-2-5
+#сохранение изменений и комит
+git commit -a -m "step 5"
+
+6.
+#пуш в удалённый репозиторий
+git push --set-upstream origin hw1-2-5
+#переключение на ветку main
+git checkout main
+#мердж ветки hw1-2-5 с main
+git merge hw1-2-5
+
+7.
+#переключение на ветку main
+git checkout main
+#мердж ветки hw1-2-3 с main
+git merge hw1-2-3
+решение конфликта
+#сохранить изменение и перевести в статус готовности к комиту
+git add
+#фиксация исправлений конфликта
+git comit
+
+
+
+
