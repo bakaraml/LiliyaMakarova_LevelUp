@@ -62,6 +62,9 @@
 
         <profile>
             <id>homework2-negative-tests</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
             <properties>
                 <test.classes>homework2/NegativeTestsSuite.class</test.classes>
             </properties>
