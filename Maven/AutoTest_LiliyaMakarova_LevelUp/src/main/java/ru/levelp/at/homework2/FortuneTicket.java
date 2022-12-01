@@ -1,7 +1,6 @@
 package ru.levelp.at.homework2;
 
 import java.util.ArrayList;
-import java.util.concurrent.TimeUnit;
 
 public class FortuneTicket {
 
