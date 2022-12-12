@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/LiliyaMakarova_LevelUp.iml" filepath="$PROJECT_DIR$/.idea/LiliyaMakarova_LevelUp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Maven/AutoTest_LiliyaMakarova_LevelUp/liliya-makarova-level-up.iml" filepath="$PROJECT_DIR$/Maven/AutoTest_LiliyaMakarova_LevelUp/liliya-makarova-level-up.iml" />
-    </modules>
-  </component>
-</project>
