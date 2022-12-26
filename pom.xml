@@ -90,6 +90,13 @@
                 <test.classes>homework3/*TaskTest.class</test.classes>
             </properties>
         </profile>
+
+        <profile>
+            <id>homework4-all-tests</id>
+            <properties>
+                <test.classes>homework4/*TaskPageObjectTest.class</test.classes>
+            </properties>
+        </profile>
     </profiles>
 
     <build>
