@@ -97,6 +97,13 @@
                 <test.classes>homework4/*TaskPageObjectTest.class</test.classes>
             </properties>
         </profile>
+
+        <profile>
+            <id>homework5-all-tests</id>
+            <properties>
+                <test.classes>homework5/*StepsTest.class</test.classes>
+            </properties>
+        </profile>
     </profiles>
 
     <build>
